@@ -8,6 +8,7 @@ import TaskDetails from './pages/tasks/TaskDetails';
 import Notifications from './pages/notifications/Notifications';
 import Teams from './pages/teams/Teams';
 import Users from './pages/users/Users';
+import Register from './pages/Register';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Routes>
 
                 <Route path="/login" element={<Login />} />
+                <Route path="/register" element={<Register />} />
 
                 <Route element={<ProtectedRoute />}>
                     <Route element={<MainLayout />}>
@@ -47,6 +49,10 @@ function App() {
                         <Route
                             path="/users"
                             element={<Users />}
+                        />
+
+                        <Route path="/register"
+                            element={<Register />}
                         />
                     </Route>
                 </Route>
