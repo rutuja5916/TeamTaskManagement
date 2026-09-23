@@ -1,0 +1,14 @@
+**/bin/
+**/obj/
+**/.vs/
+**/TestResults/
+**/node_modules/
+
+.git/
+.gitignore
+
+README.md
+*.user
+*.suo
+
+appsettings.Development.json

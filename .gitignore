@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# .NET build files
+**/bin/
+**/obj/
+
+# NuGet
+packages/
+
+# Logs
+*.log
+
+# React / Node
+TeamTaskManagement.Client/node_modules/
+TeamTaskManagement.Client/dist/
+TeamTaskManagement.Client/build/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
